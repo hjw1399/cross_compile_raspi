@@ -19,3 +19,7 @@ https://releases.linaro.org/components/toolchain/binaries/7.1-2017.08/aarch64-li
 2. Make "toolchain.arm.cmake" file (refer to the reference link)
   : change CMAKE_SYSTEM_PROCESSOR and COMPILER_ROOT (SET(CMAKE_SYSTEM_PROCESSOR aarch64))
 3. cmake -DCMAKE_TOOLCHAIN_FILE=toolchain.arm.cmake -DCMAKE_BUILD_TYPE=Release .. && make all
+
+### TO DO LIST
+Comment by Jiwan : I cannot build the source code because of ROS dependency (=catkin). Therefore, I will check this post to build my project.
+https://medium.com/@tahsincankose/cross-compiling-ros-project-for-arm-263642b405ac
